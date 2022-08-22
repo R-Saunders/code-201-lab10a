@@ -86,3 +86,29 @@ img {
 p {
   color: lightslategrey;
 }
+
+thead {
+  height: 1rem;
+}
+
+td {
+  border-bottom: 1px solid lightgrey;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  background-color: rgb(255, 244, 228);
+  margin: 0 2em;
+  border-bottom: thick double lightgrey;
+}
+
+.first-cell {
+  width: 2em;
+  border-right: double 4px rgb(253, 159, 159);
+}
+
+#table-container {
+  display: flex;
+  padding-bottom: 1em;
+}
