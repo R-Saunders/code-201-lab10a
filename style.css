@@ -54,6 +54,16 @@ header li {
   font-size: 1.5em;
 }
 
+header i {
+  color: gray;
+}
+
+#seperator {
+  background-color: #ffffff;
+  background-image: repeating-linear-gradient(+45deg, lightgrey , lightgrey 1px, white 1px, white 2px);
+  height:1em; 
+}
+
 #article-info {
   display: flex;
   justify-content: space-between;
@@ -73,3 +83,6 @@ img {
   margin: 1em 0;
 }
 
+p {
+  color: lightslategrey;
+}
