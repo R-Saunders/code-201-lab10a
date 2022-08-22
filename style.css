@@ -58,7 +58,7 @@ header i {
   color: gray;
 }
 
-#seperator {
+.seperator {
   background-color: #ffffff;
   background-image: repeating-linear-gradient(+45deg, lightgrey , lightgrey 1px, white 1px, white 2px);
   height:1em; 
@@ -101,6 +101,7 @@ table {
   background-color: rgb(255, 244, 228);
   margin: 0 2em;
   border-bottom: thick double lightgrey;
+  font-family: 'Comic Neue', cursive;
 }
 
 .first-cell {
@@ -111,4 +112,57 @@ table {
 #table-container {
   display: flex;
   padding-bottom: 1em;
+}
+
+footer { 
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 80px;
+}
+
+#footer-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p, footer h3 {
+  margin: 0;
+}
+
+footer button {
+  background-color: rgb(189,112,89);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+#logo-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 1em 1em;
+  width: 2em;
+  color: white;
+}
+
+.footer-line {
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  margin: 0 1em;
+}
+
+#footer-bottom {
+  display: flex;
+  align-items: center;
+}
+
+#copyright {
+  display: flex;
+  margin: 2em 0;
+  flex-direction: column;
+  align-items: center;
 }
